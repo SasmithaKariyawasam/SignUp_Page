@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: darkseagreen;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#welcome {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    background-color:white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 40px;
+    align-items: center;
+}
+
+.button{
+
+    padding: 10px;
+    margin: 10px;
+    color: #11bf57;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 14px;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+#in_up {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+    background-color: #11bf57;
+    border-radius: 5px;
+    font-style: bold;
+    font-size: larger;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+#backhome {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: w;
+    background-color: #11bf57;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#backhome,#in_up:hover {
+    background-color: white;
+    color: #11bf57;
+}
+
+#ac_but {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#ac_but:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #035a62;
+    text-align: center;
+}
+
+#welcome_msg{
+    font-size: 200px;
+}
